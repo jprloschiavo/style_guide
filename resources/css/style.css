@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #1D3557;
+    --secondary-color: #457B9D;
+    --accent-color: #E63946;
+    --neutral-light-color: #F1FAEE;
+    --neutral-dark-color: #071005;
+}
+
+html {
+    width: 100%;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    min-width: 10rem;
+    min-height: 10rem;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: var(--neutral-light-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+    color: var(--neutral-dark-color);
+}
+
+.accent {
+    background-color: var(--accent-color);
+    color: var(--neutral-dark-color);
+}
+
+.neutral-light {
+    background-color: var(--neutral-light-color);
+    color: var(--neutral-dark-color);
+}
+
+.neutral-dark {
+    background-color: var(--neutral-dark-color);
+    color: var(--neutral-light-color);
+}
+
+#colors {
+
+}

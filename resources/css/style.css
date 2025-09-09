@@ -10,6 +10,8 @@
     --accent-color: #E63946;
     --neutral-light-color: #F1FAEE;
     --neutral-dark-color: #071005;
+    --primary-font: "Libre Baskerville", serif;
+    --secondary-font: Lato, sans-serif;
 }
 
 html {
@@ -26,6 +28,18 @@ main {
     flex-direction: column;
     margin: 1rem 0;
     padding: 0 1rem;
+}
+
+h1 {
+    font-family: var(--primary-font);
+}
+
+h3 {
+    font-family: var(--primary-font);
+}
+
+p {
+    font-family: var(--secondary-font);
 }
 
 .flex-container {
@@ -71,6 +85,10 @@ main {
     color: var(--neutral-light-color);
 }
 
-#colors {
+.primary-font h3, .primary-font p {
+    font-family: var(--primary-font);
+}
 
+.secondary-font h3, .secondary-font p {
+    font-family: var(--secondary-font);
 }
